@@ -131,14 +131,25 @@
 */
 		/* css properties of page content on about me page*/
 
-		.feature {
+		.content-box {
+			width:100%;
+			border: 1px solid black;
+			display:flex;
 			
+		}
+
+		.feature {
+			width:50%;	
 			margin-top:5px;
 			background-color: green;
 			display:flex;
-			justify-content: center;
+			/*justify-content: center;
 			align-items: center;
-			font-family: verdana;
+*/			
+		}
+
+		.profile-pic {
+
 		}
 
 		/* css properties of footer section*/
