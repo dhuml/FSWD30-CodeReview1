@@ -129,8 +129,10 @@
 										}
 		
 */
+		/* css properties of page content on about me page*/
+
 		.feature {
-			height: 80px;
+			
 			margin-top:5px;
 			background-color: green;
 			display:flex;
@@ -138,6 +140,10 @@
 			align-items: center;
 			font-family: verdana;
 		}
+
+		/* css properties of footer section*/
+
+
 
 		.copyright {
 			height: 80px;
