@@ -1,52 +1,83 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Blank Page Layout</title>
-	<link rel="stylesheet" type="text/css" href="standard.css">
+	<link rel="stylesheet" type="text/css" href="codereview.css">
 </head>
 
 <body>
+	<div class="wrapper"> 
 	
-	<header>
+		<header>
 
-		<!-- div als header section mit horizontal und vertikal zentriertem logo -->
+			<!-- div als header section mit horizontal und vertikal zentriertem logo -->
 
-		<div class="logo">
-			<img src="http://arizonachristian.edu/wp-content/uploads/2017/06/logo-placeholder-300x120.png">
+			<div class="logo">
+				<img src="C:\Users\David\Desktop\codefactory\FSWD30-CodeReview1\images\codefactory-vienna-1.png">
+
+			</div>
+
+			<span class="name">David Huml Future Web Developer</span>
+
+		</header>
+
+		<!-- menüband mit links als liste mit flexbox horizontal ausgerichtet -->
+
+		<nav>
+			<ul>
+				<li class="menu_items"><a href="#">Home</a></li>
+				<li class="menu_items"><a href="#">Products</a></li>
+				<li class="menu_items"><a href="#">Service</a></li>
+				<li class="menu_items"><a href="#">About</a></li>
+				<li class="menu_items"><a href="#">Contact</a></li>
+			</ul>
+		</nav><!-- 
+
+		boxen für den inhalt
+	 -->
+
+	 	<div class="content_box">
+			
+			<div class="row">
+				<div class="colu">
+					<img class="content_pic" src="C:\Users\David\Desktop\codefactory\FSWD30-CodeReview1\images\INBOX7379.jpeg">
+					<p class="bildtext">Social spot for developers</p>
+				</div>
+				<div class="colu">
+					<img class="content_pic" src="C:\Users\David\Desktop\codefactory\FSWD30-CodeReview1\images\sound-speaker-radio-microphone-1024x683.jpg">
+					<p class="bildtext">Land in sight - Guest CodeFactory</p>
+				</div>
+			</div>
+
+			<!-- boxen text unter box  -->
+			
+
+			<div class="row">
+				<div class="colu">
+					<img class="content_pic" src="C:\Users\David\Desktop\codefactory\FSWD30-CodeReview1\images\ae0fa98c8f9a6dd8674d34be2f82b935_XL.jpg">
+					<p class="bildtext">By profession: "code monkey"</p>
+				</div>			
+				<div class="colu">
+					<img class="content_pic" src="C:\Users\David\Desktop\codefactory\FSWD30-CodeReview1\images\90.235.jpg">
+					<p class="bildtext">EU CodeWeek: "Programmieren genauso wichtig wie Latein"</p>
+				</div>
+			</div>
 		</div>
-	</header>
 
-	<!-- menüband mit links als liste mit flexbox horizontal ausgerichtet -->
 
-	<nav>
-		<ul>
-			<li class="menu_items"><a href="#">Home</a></li>
-			<li class="menu_items"><a href="#">Products</a></li>
-			<li class="menu_items"><a href="#">Service</a></li>
-			<li class="menu_items"><a href="#">About</a></li>
-			<li class="menu_items"><a href="#">Contact</a></li>
-		</ul>
-	</nav><!-- 
 
-	boxen für den inhalt
- -->
-	<div class="feature">
-		Feature
+		<!-- <div class="feature">
+			Feature
+		</div> -->
+
+
+		<!-- box für footer section -->
+
+		<div class="copyright">
+			<span class="name">David Huml - CodeFactory</span>
+		</div>
 	</div>
-
-	<div class="container">
-		<div class="col">Column one</div>
-		<div class="col">Column Two</div>
-		<div class="col">Column Three</div>
-	</div>
-
-	<!-- box für footer section -->
-
-	<div class="copyright">
-		&copy Copyright 2017
-	</div>
-
-
 	
 </body>
 

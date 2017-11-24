@@ -1,15 +1,18 @@
+	
 	header {
 			display:flex;
-			justify-content:center;
-			background-color: blue;
+			justify-content: flex start;
+			align-items: center;
+			background-color: #E34F56;
 		}
 
 		ul {
 			list-style: none;
 			display:flex;
-			justify-content: center;
+			justify-content: flex-start;
 			background: grey;
-			padding : 40px 40px;
+			padding : 10px 10px;
+			margin:5px 0px;
 		}
 
 		li {
@@ -18,45 +21,89 @@
 
 		a {
 			text-decoration: none;
-			font-family:verdana;
+			font-family:courier;
+			font-size:17px;
+			padding:5px;
 		}
 
-		.feature {
+		.wrapper {
+			width:800px;
+			margin:0 auto;
+
+		}
+
+		.name {
+			margin: 60px;
+			font-family:courier;
+			font-size:21px;
+			font-weight: /*bold*/;
+			color:white;
+		}
+			
+		}
+
+		.logo {
+			float:left;
+			margin:20px;
+			border: 1px solid black;
+		}
+
+
+
+		
+
+		.row {
+			margin-top:15px;
+			display:flex;
+			height:350px;
+			justify-content: space-between;
+		}
+
+		.colu {
+			width:47%;
+
+			font-family: verdana;
+			font-size:18px;
+			
+			/*display:flex;*/
+			/*align-items: center;*/
+			/*justify-content: center;*/
+		}
+
+		.content_pic {
+			width:100%;
+			margin:auto;
+		}
+
+					 
+/*
+		div.colu:nth-child(1) {background-color:#C6C3BF;
+								}
+		div.colu:nth-child(2) {background-color:#FA225B;
+								}
+		div.colu:nth-child(3) {background-color:#047A76;
+										}
+		div.colu:nth-child(4) {background-color:#047A76;
+										}
+		
+*/
+		/*.feature {
 			height: 80px;
+			margin-top:5px;
 			background-color: green;
 			display:flex;
 			justify-content: center;
 			align-items: center;
 			font-family: verdana;
-
-		}
-
-		.container {
-			margin-top: 16px;
-			display:flex;
-			height:80px;
-			justify-content: space-between;
-		}
-
-		.col {
-			width:30%;
-			display:flex;
-			align-items: center;
-			font-family: verdana;
-			justify-content: center;
-		}
-
-		div.col:nth-child(1) {background-color:#C6C3BF;}
-		div.col:nth-child(2) {background-color:#FA225B;}
-		div.col:nth-child(3) {background-color:#047A76;}
-		
+		}*/
 
 		.copyright {
 			height: 80px;
 			margin-top: 16px;
-			background-color: green;
+			background-color: #E34F56;
 			display:flex;
 			justify-content: center;
 			align-items: center;
 			font-family: verdana;
 		}
+	}
