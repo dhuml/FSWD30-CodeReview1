@@ -1,35 +1,18 @@
-	
-	header {
-			display:flex;
-			justify-content: flex start;
-			align-items: center;
-			background-color: #E34F56;
-		}
-
-		ul {
-			list-style: none;
-			display:flex;
-			justify-content: flex-start;
-			background: grey;
-			padding : 10px 10px;
-			margin:5px 0px;
-		}
-
-		li {
-			margin: 0 10px 0 10px;
-		}
-
-		a {
-			text-decoration: none;
-			font-family:courier;
-			font-size:17px;
-			padding:5px;
-		}
+	/* center the whole content of the page */
 
 		.wrapper {
 			width:800px;
 			margin:0 auto;
 
+		}
+	
+	/* CSS-properties for header - logo section*/
+
+	header {
+			display:flex;
+			justify-content: flex start;
+			align-items: center;
+			background-color: #E34F56;
 		}
 
 		.name {
@@ -48,9 +31,47 @@
 			border: 1px solid black;
 		}
 
+		/* CSS-properties for Navigation */
+
+		ul {
+			list-style: none;
+			display:flex;
+			justify-content: flex-start;
+			box-sizing: border-box;
+			background: #838685;			
+			padding : 0 10px;
+			margin:5px 0px;
+			
+		}
+
+		li {
+			margin: 0 10px 0 10px;
+			padding : 10px 0px;
+			border:1px solid transparent;
 
 
+			
+		}
+
+		li:hover {
+			border:1px solid #757877;
+		}
+
+		.menu_items a {
+			text-decoration: none;
+			font-family:courier;
+			font-size:17px;
+			padding:5px;
+			color:white;
+		}
 		
+		.menu_items a:active {
+			color:#f2f2f2;
+			font-weight: bold;
+
+		}
+		
+		/* css propteries for content section */
 
 		.row {
 			margin-top:15px;
@@ -60,11 +81,7 @@
 		}
 
 		.colu {
-			width:47%;
-
-			font-family: verdana;
-			font-size:18px;
-			
+			width:47%;			
 			/*display:flex;*/
 			/*align-items: center;*/
 			/*justify-content: center;*/
@@ -75,6 +92,31 @@
 			margin:auto;
 		}
 
+		.content_pic:hover{
+			opacity:0.5;
+		}
+
+
+		.bildtext a {
+			text-decoration: none;
+			font-family: verdana;
+			font-size:18px;
+			padding:5px;
+			color:#1a1a1a;
+		}
+
+		.bildtext a:active {
+			color:#272827;
+			font-weight: bold;
+		}
+
+		.bildtext a:hover {
+			text-decoration: underline;
+			font-family: verdana;
+			font-size:18px;
+			padding:5px;
+			color:#000000;
+		}
 					 
 /*
 		div.colu:nth-child(1) {background-color:#C6C3BF;
@@ -106,4 +148,8 @@
 			align-items: center;
 			font-family: verdana;
 		}
-	}
+		#copyright {
+			font-size:19px;
+		}
+
+	
