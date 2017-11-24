@@ -1,7 +1,8 @@
 	/* center the whole content of the page */
 
-		.wrapper {
-			width:800px;
+	.wrapper {
+			width: 80%;
+			min-width:800px;
 			margin:0 auto;
 
 		}
@@ -15,7 +16,7 @@
 			background-color: #E34F56;
 		}
 
-		.name {
+	.name {
 			margin: 60px;
 			font-family:courier;
 			font-size:21px;
@@ -25,7 +26,7 @@
 			
 		}
 
-		.logo {
+	.logo {
 			float:left;
 			margin:20px;
 			border: 1px solid black;
@@ -33,7 +34,7 @@
 
 		/* CSS-properties for Navigation */
 
-		ul {
+	ul {
 			list-style: none;
 			display:flex;
 			justify-content: flex-start;
@@ -44,7 +45,7 @@
 			
 		}
 
-		li {
+	li {
 			margin: 0 10px 0 10px;
 			padding : 10px 0px;
 			border:1px solid transparent;
@@ -53,11 +54,11 @@
 			
 		}
 
-		li:hover {
+	li:hover {
 			border:1px solid #757877;
 		}
 
-		.menu_items a {
+	.menu_items a {
 			text-decoration: none;
 			font-family:courier;
 			font-size:17px;
@@ -65,7 +66,7 @@
 			color:white;
 		}
 		
-		.menu_items a:active {
+	.menu_items a:active {
 			color:#f2f2f2;
 			font-weight: bold;
 
@@ -73,22 +74,24 @@
 		
 		/* css propteries for content section */
 
-		.row {
+	.row {
 			margin-top:15px;
 			display:flex;
-			height:350px;
+			width:100%;
+			min-height:350px;
 			justify-content: space-between;
 		}
 
-		.colu {
+	.colu {
 			width:47%;			
 			/*display:flex;*/
 			/*align-items: center;*/
 			/*justify-content: center;*/
 		}
 
-		.content_pic {
+	.content_pic {
 			width:100%;
+
 			margin:auto;
 		}
 
@@ -131,6 +134,13 @@
 */
 		/* css properties of page content on about me page*/
 
+		h2 {
+			margin:0;
+			text-align:center;
+			font-family: courier;
+
+		}
+
 		.content-box {
 			width:100%;
 			border: 1px solid black;
@@ -138,19 +148,51 @@
 			
 		}
 
+		.about_text {
+			font-family: courier;
+		}
+
 		.feature {
-			width:50%;	
+			/*width:100%;*/	
 			margin-top:5px;
-			background-color: green;
+			/*background-color: green;*/
 			display:flex;
-			/*justify-content: center;
+			justify-content: center;
 			align-items: center;
-*/			
+			
 		}
 
-		.profile-pic {
+		#profile_pic {
+			margin: 15px;
+			border-radius: 50%;
+			padding:0;
+			}
 
+		#profile_pic:hover{
+			opacity:0.5;
 		}
+
+		/*css properties for blog.html*/
+
+		.colu_blog {
+			width:100%;
+		}
+
+		/*css properties for contact.html*/
+
+		.colu_contact {
+			width: 100%;
+			
+		}
+
+		.contact_text {
+			font-family: courier;
+			font-size:20px;
+			text-align: center;
+			font-weight:bold;
+		}
+
+
 
 		/* css properties of footer section*/
 
