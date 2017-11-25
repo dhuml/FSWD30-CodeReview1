@@ -84,9 +84,7 @@
 
 	.colu {
 			width:47%;			
-			/*display:flex;*/
-			/*align-items: center;*/
-			/*justify-content: center;*/
+			
 		}
 
 	.content_pic {
@@ -121,18 +119,8 @@
 			color:#000000;
 		}
 					 
-/*
-		div.colu:nth-child(1) {background-color:#C6C3BF;
-								}
-		div.colu:nth-child(2) {background-color:#FA225B;
-								}
-		div.colu:nth-child(3) {background-color:#047A76;
-										}
-		div.colu:nth-child(4) {background-color:#047A76;
-										}
-		
-*/
-		/* css properties of page content on about me page*/
+
+		/* css properties of about_me.html */
 
 		h2 {
 			margin:0;
@@ -153,9 +141,9 @@
 		}
 
 		.feature {
-			/*width:100%;*/	
+			
 			margin-top:5px;
-			/*background-color: green;*/
+			
 			display:flex;
 			justify-content: center;
 			align-items: center;
@@ -207,6 +195,7 @@
 			align-items: center;
 			font-family: verdana;
 		}
+
 		#copyright {
 			font-size:19px;
 		}
